@@ -1,0 +1,146 @@
+.container{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: 3px solid black;
+  grid-template-areas: 'header'
+                        'content1 content1 content1'
+                        'content2 content2 content2'
+                        'footer footer footer';
+  
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  }
+  
+  
+  header{
+    height: 10%;
+    background-color: rgb(0, 83, 18);
+    display: grid;
+    border: 5px;
+    grid-area: header;
+    top: 0;
+    position: sticky;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    font-style: italic;
+  }
+  
+  
+  content1{
+    background-color: lightgray;
+    display: grid;
+    height: 10%;
+    border: 1px;
+    grid-area: content1;
+    font-style: italic;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-content: center;
+    background-color: whitesmoke;
+    font-style: italic;
+  }
+  
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0.5px solid rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 50px;
+  }
+  
+  
+  .content2{
+    background-color: gray;
+    display: grid;
+    height: 10%;
+    font-style: italic;
+    grid-area: content1;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  
+  .grid-container2{
+    font-style: italic;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto
+    
+  }
+  
+  
+  .grid-item2{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-style: italic;
+  }
+  
+  
+  .grid-item2 img{
+    width: 50%;
+    height: 100%;
+    align-items: center;
+  }
+  
+  
+  .grid-container3{
+    display: grid;
+  }
+  
+  
+  .grid-item3{
+  
+    border: 1px solid black;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    text-align: center;
+    font-style: italic;
+    align-items: center;
+    align-content: center;
+  }
+  
+  
+  .grid-item3 h2{
+    text-align: right;
+  }
+  
+  
+  
+  
+  footer{
+    display: grid;
+    grid-area: footer;
+    background-color: lightgrey;
+    height: 10%;
+    width: 100%;
+    border: 1px solid gray;
+    position: fixed;
+    bottom: 0;
+    font-style: italic;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  
+  footer h1{
+    padding-top: 10px;
+  }
